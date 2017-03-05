@@ -9,7 +9,7 @@ displayAccessLevelInformation($access_level,$username);
 function displayAccessLevelInformation($access_level,$username)
 {
     if ($access_level == "standarduser") {
-        echo " <p>You are currently logged in as a {$access_level} user </p>";
+        echo " <p>You are LATADA currently logged in as a {$access_level} user </p>";
         echo " <p>Your user name is {$username} </p>";
     } elseif ($access_level == "root") {
         echo "<p>You are currently logged in as a {$access_level} user</p>";
