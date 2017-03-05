@@ -18,6 +18,6 @@ if ($username==$truename && $password==$trueword)
 
 }
 
-header('Location: loggedIn.php')
+header('Location: homepage.php')
 
 ?>
