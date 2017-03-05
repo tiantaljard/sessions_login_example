@@ -5,14 +5,15 @@
  * Date: 05/03/2017
  * Time: 09:17
  */
-$username="tian";
-$password="taljard";
+$truename="tian";
+$trueword="taljard";
 
 $username=$_POST["name"];
 $password=$_POST["password"];
 
-if ($username=="username" && $password=="password")
+if ($username==$truename && $password==$trueword)
 {
+    setcookie('username',$username);
     setcookie('access_level','standarduser');
 
 }
