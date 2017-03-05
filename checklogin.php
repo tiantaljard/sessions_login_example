@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: TianTaljard
  * Date: 05/03/2017
- * Time: 09:17
+ * Time: 09:17 h
  */
 $truename="tian";
 $trueword="taljard";
