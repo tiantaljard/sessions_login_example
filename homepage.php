@@ -17,3 +17,4 @@ function displayAccessLevelInformation($access_level,$username)
         echo " <p>Your user name is {$username} </p>";
     }
 }
+?>
