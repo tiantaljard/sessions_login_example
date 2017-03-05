@@ -13,8 +13,11 @@ $password=$_POST["password"];
 
 if ($username==$truename && $password==$trueword)
 {
-    setcookie('username',$username);
-    setcookie('access_level','standarduser');
+    session_start();
+    $_SESSION['access_level_session']="standarduser";
+    $_SESSION['username_session']=$username;
+    //setcookie('username',$username);
+    //setcookie('access_level','standarduser');
 
 }
 
