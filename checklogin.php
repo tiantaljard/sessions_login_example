@@ -16,6 +16,7 @@ if ($username==$truename && $password==$trueword)
     session_start();
     $_SESSION['access_level_session']="standarduser";
     $_SESSION['username_session']=$username;
+    $_SESSION['password']=$password;
     //setcookie('username',$username);
     //setcookie('access_level','standarduser');
 
